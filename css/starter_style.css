@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Montserrat",  sans-serif!important;
+    /* font-family: "Open Sans",  sans-serif; */
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-bg-color.scrolled{
+    background: #FFF;
+    box-shadow: 0px 2px 20px 0px #333;
+}
+a{
+    text-decoration: none!important;
+    color: currentColor!important;
+}
+a:hover{
+    color: currentColor!important;
+}
+.rounded-10{
+    border-radius: 10px!important;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.mt-7{
+    margin-top: 7rem!important;
+}
+.btn-pill{
+    border-radius: 20px!important;
+    
+}
+.smallText{
+    font-size: .8em;
+    color: hsl(0, 0%, 60%);
+    font-weight: 600;
+}
+.smallText-md{
+    font-size: 1em;
+    color: hsl(0, 0%, 45%);
+    font-weight: 600;
+}
+.fs-1-5{
+    font-size: 1.5rem;
+}
+.fs-2{
+    font-size: 2em;
+}
+.fs-4{
+    font-size: 4em;
+}
+.fw-bold{
+    font-weight: bolder;
+}
+.fw-600{
+    font-weight: 600;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.p-6{
+    padding: 5rem;
+}
+.p-7{
+    padding: 6rem;
+}
+.pt-10_percent{
+    padding-top: 10%;
+}
+.pt-20_percent{
+    padding-top: 20%;
+}
+p{
+    margin: 0!important;
+}
+ul li{
+    list-style: none;
+}
+/* =========================================================== */
